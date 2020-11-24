@@ -126,8 +126,12 @@ src
 ***
 
 ## Post-MVP
+_These are possible goals for post-MVP:_
 
-> Use this section to document ideas you've had that would be fun (or necessary) for your Post-MVP. This will be helpful when you return to your project after graduation!
+- _Admin user can delete any user's orders._
+- _Create order button on menu that autofills the form with data from that menu item._
+- _Credit card payment authorization and security._
+- _Animations for transitions between pages._
 
 ***
 
