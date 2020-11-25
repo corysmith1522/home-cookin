@@ -33,7 +33,11 @@ _The **Lara's Home Cookin** user will be able to create, read, update and delete
 | :--------------: | :----------------------------------------- |
 |      React       | _Front-end client server_ |
 |   React Router   | _Front-end navigation between pages_ |
+|   Axios   | _Make API calls and connections from front to back_ |
 |  Ruby on Rails   | _Back-end server to store all data passed into the app_ |
+|   Rack_Cors   | _Middleware for handling cross-origin resource sharing_ |
+|   BCRYPT   | _Hash algorithm gem for hashing passwords and allow for authentication_ |
+
 
 <br>
 
@@ -126,9 +130,31 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
+| Create Models/Relationships |    M     |     1 hr      |     TBD     |     TBD     |
+| Seed Database with Menu Items |    L     |     1 hr      |     TBD     |     TBD     |
+| Create Routes/Controllers |    M     |     1 hr      |     TBD     |     TBD     |
+| Set up Authentication |    M     |     1 hr      |     TBD     |     TBD     |
+| Full Backend CRUD Functionality    |    H     |     1 hr      |     TBD     |    TBD    |
+| Create and Scaffold React App |    L     |     1 hr      |     TBD     |     TBD     |
+| API Routes and Services |    M     |     1 hr      |     TBD     |     TBD     |
+| Home.jsx Logic |    M     |     1 hr      |     TBD     |     TBD     |
+| Layout.jsx Logic |    M     |     1 hr      |     TBD     |     TBD     |
+| Login.jsx Logic |    M     |     1 hr      |     TBD     |     TBD     |
+| Register.jsx Logic |    M     |     1 hr     |     TBD     |     TBD     |
+| Header & Footer |    L     |     1 hr      |     TBD     |     TBD     |
+| MainContainer.jsx Logic |    H     |     4 hr      |     TBD     |     TBD     |
+| Menu.jsx Logic |    M     |     1 hr      |     TBD     |     TBD     |
+| Orders.jsx Logic |    M     |     1 hr      |     TBD     |     TBD     |
+| CreateOrders.jsx Logic |    M     |     3 hr      |     TBD     |     TBD     |
+| EditOrders.jsx Logic |    M     |     1 hr      |     TBD     |     TBD     |
+| SelectFromMenu.jsx Logic |    H     |     3 hr      |     TBD     |     TBD     |
+| CSS Styling |    H     |     4 hr      |     TBD     |     TBD     |
+| Logic Testing |    M     |     3 hr      |     TBD     |     TBD     |
+| Post-MVP Admin User |    M     |     2 hr      |     TBD     |     TBD     |
+| Post-MVP Animations |    M     |     2 hr      |     TBD     |     TBD     |
+| Post-MVP Autofill |    M     |     2 hr      |     TBD     |     TBD     |
+| Post-MVP Credit Card |    M     |     3 hr      |     TBD     |     TBD     |
+| TOTAL               |          |     41 hrs      |     TBD     |     TBD     |
 
 > _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
 
