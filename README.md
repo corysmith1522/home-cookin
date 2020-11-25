@@ -69,7 +69,7 @@ _The **Lara's Home Cookin** user will be able to create, read, update and delete
 
 #### Component Tree
 
-> Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. 
+![Component Tree](https://github.com/corysmith1522/home-cookin/blob/dev/home_cookin_component_.png) 
 
 #### Component Hierarchy
 
