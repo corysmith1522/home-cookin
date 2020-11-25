@@ -29,14 +29,15 @@ _The **Lara's Home Cookin** user will be able to create, read, update and delete
 
 
 
-|     Library      | Description                                |
+|     Library/Dependency      | Description                                |
 | :--------------: | :----------------------------------------- |
 |      React       | _Front-end client server_ |
 |   React Router   | _Front-end navigation between pages_ |
 |   Axios   | _Make API calls and connections from front to back_ |
 |  Ruby on Rails   | _Back-end server to store all data passed into the app_ |
 |   Rack_Cors   | _Middleware for handling cross-origin resource sharing_ |
-|   BCRYPT   | _Hash algorithm gem for hashing passwords and allow for authentication_ |
+|   BCRYPT   | _Hash algorithm gem for hashing passwords_ |
+|   JWT   | _JSON web token package allowing for token authentication_ |
 
 
 <br>
