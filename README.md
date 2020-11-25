@@ -73,33 +73,52 @@ _The **Lara's Home Cookin** user will be able to create, read, update and delete
 
 #### Component Hierarchy
 
-> Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
-
 ``` structure
 
 src
+|__ index.js
+|__ index.css
+|__ App.js
+|__ App.css
 |__ assets/
-      |__ fonts
-      |__ graphics
       |__ images
       |__ mockups
 |__ components/
       |__ Header.jsx
+      |__ Header.css
+      |__ Footer.jsx
+      |__ Footer.css
+|__ containers/
+      |__ MainContainer.jsx
+|__ layouts/
+      |__ Layout.jsx
+      |__ Layout.css
+|__ screens/
+      |__ Home.jsx
+      |__ Home.css
+      |__ Menu.jsx
+      |__ Menu.css
+      |__ Orders.jsx
+      |__ Orders.css
+      |__ CreateOrder.jsx
+      |__ CreateOrder.css
+      |__ EditOrder.jsx
+      |__ EditOrder.css
+      |__ SelectFromMenu.jsx
+      |__ SelectFromMenu.css
+      |__ Login.jsx
+      |__ Login.css
+      |__ Register.jsx
+      |__ Register.css
 |__ services/
+      |__ apiConfig.js
+      |__ auth.js
+      |__ menu.js
+      |__ orders.js
 
 ```
 
-#### Component Breakdown
-
-> Use this section to go into further depth regarding your components, including breaking down the components as stateless or stateful, and considering the passing of data between those components.
-
-|  Component   |    Type    | state | props | Description                                                      |
-| :----------: | :--------: | :---: | :---: | :--------------------------------------------------------------- |
-|    Header    | functional |   n   |   n   | _The header will contain the navigation and logo._               |
-|  Navigation  | functional |   n   |   n   | _The navigation will provide a link to each of the pages._       |
-|   Gallery    |   class    |   y   |   n   | _The gallery will render the posts using cards in flexbox._      |
-| Gallery Card | functional |   n   |   y   | _The cards will render the post info via props._                 |
-|    Footer    | functional |   n   |   n   | _The footer will show info about me and a link to my portfolio._ |
+<br>
 
 #### Time Estimates
 
