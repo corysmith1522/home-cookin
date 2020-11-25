@@ -119,7 +119,7 @@ src
 
 #### ERD Model
 
-![ERD Diagram](https://drive.google.com/file/d/1kw3_BTMb7MamNcCuG8VlnyeabQV4ktx5/view?usp=sharing)
+![ERD Diagram](https://github.com/corysmith1522/home-cookin/blob/dev/home_cookin_ERD.png)
 
 <br>
 
