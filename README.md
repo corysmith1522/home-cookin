@@ -46,31 +46,37 @@ _The **Lara's Home Cookin** user will be able to create, read, update and delete
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
+![Home](https://github.com/corysmith1522/home-cookin/blob/dev/home_page_wf.png)
 
-![Dummy Link](url)
+- Welcome Home page
 
-- Desktop Landing
+![Login](https://github.com/corysmith1522/home-cookin/blob/dev/login_wf.png)
 
-![Dummy Link](url)
+- Login Page
 
-- Desktop Hero
+![Register](https://github.com/corysmith1522/home-cookin/blob/dev/register_wf.png)
 
-![Dummy Link](url)
+- Register Page
 
-- Resource Index
+![Home After Login](https://github.com/corysmith1522/home-cookin/blob/dev/home_page_after_login_wf.png)
 
-![Dummy Link](url)
+- Home Page After Login
 
-- Resource Show
+![Menu](https://github.com/corysmith1522/home-cookin/blob/dev/menu_wf.png)
 
-![Dummy Link](url)
+- Menu Page
 
-- Tablet Resource Index
+![Create Order](https://github.com/corysmith1522/home-cookin/blob/dev/create_order_wf.png)
 
-![Dummy Link](url)
+- Create New Order Page
 
-- Mobile Resource Index
+![Edit Order](https://github.com/corysmith1522/home-cookin/blob/dev/edit_order_wf.png)
+
+- Edit Order Page
+
+![View Orders](https://github.com/corysmith1522/home-cookin/blob/dev/orders_wf.png)
+
+- Orders Page
 
 #### Component Tree
 
@@ -93,6 +99,8 @@ src
       |__ Header.css
       |__ Footer.jsx
       |__ Footer.css
+      |__ SelectFromMenu.jsx
+      |__ SelectFromMenu.css
 |__ containers/
       |__ MainContainer.jsx
 |__ layouts/
@@ -109,8 +117,6 @@ src
       |__ CreateOrder.css
       |__ EditOrder.jsx
       |__ EditOrder.css
-      |__ SelectFromMenu.jsx
-      |__ SelectFromMenu.css
       |__ Login.jsx
       |__ Login.css
       |__ Register.jsx
@@ -126,8 +132,6 @@ src
 <br>
 
 #### Time Estimates
-
-> Use this section to estimate the time necessary to build out each of the components you've described above.
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
@@ -157,8 +161,6 @@ src
 | Post-MVP Credit Card |    M     |     3 hr      |     TBD     |     TBD     |
 | TOTAL               |          |     41 hrs      |     TBD     |     TBD     |
 
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
-
 <br>
 
 ### Server (Back End)
@@ -183,8 +185,4 @@ _These are possible goals for post-MVP:_
 
 ## Code Showcase
 
-> Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
-
 ## Code Issues & Resolutions
-
-> Use this section to list of all major issues encountered and their resolution.
