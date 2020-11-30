@@ -46,45 +46,45 @@ _The **Lara's Home Cookin** user will be able to create, read, update and delete
 
 #### Wireframes
 
-![Home](https://github.com/corysmith1522/home-cookin/blob/dev/home_page_wf.png)
+![Home](https://github.com/corysmith1522/home-cookin/blob/dev/mockups/home_page_wf.png)
 
 - Welcome Home page
 
-![Login](https://github.com/corysmith1522/home-cookin/blob/dev/login_wf.png)
+![Login](https://github.com/corysmith1522/home-cookin/blob/dev/mockups/login_wf.png)
 
 - Login Page
 
-![Register](https://github.com/corysmith1522/home-cookin/blob/dev/register_wf.png)
+![Register](https://github.com/corysmith1522/home-cookin/blob/dev/mockups/register_wf.png)
 
 - Register Page
 
-![Home After Login](https://github.com/corysmith1522/home-cookin/blob/dev/home_page_after_login_wf.png)
+![Home After Login](https://github.com/corysmith1522/home-cookin/blob/dev/mockups/home_page_after_login_wf.png)
 
 - Home Page After Login
 
-![Menu](https://github.com/corysmith1522/home-cookin/blob/dev/menu_wf.png)
+![Menu](https://github.com/corysmith1522/home-cookin/blob/dev/mockups/menu_wf.png)
 
 - Menu Page
 
-![Create Order](https://github.com/corysmith1522/home-cookin/blob/dev/create_order_wf.png)
+![Create Order](https://github.com/corysmith1522/home-cookin/blob/dev/mockups/create_order_wf.png)
 
 - Create New Order Page
 
-![Edit Order](https://github.com/corysmith1522/home-cookin/blob/dev/edit_order_wf.png)
+![Edit Order](https://github.com/corysmith1522/home-cookin/blob/dev/mockups/edit_order_wf.png)
 
 - Edit Order Page
 
-![View Orders](https://github.com/corysmith1522/home-cookin/blob/dev/orders_wf.png)
+![View Orders](https://github.com/corysmith1522/home-cookin/blob/dev/mockups/orders_wf.png)
 
 - Orders Page
 
-![Mobile Wireframe](https://github.com/corysmith1522/home-cookin/blob/dev/mobile_wf.png)
+![Mobile Wireframe](https://github.com/corysmith1522/home-cookin/blob/dev/mockups/mobile_wf.png)
 
 - Mobile Wireframe
 
 #### Component Tree
 
-![Component Tree](https://github.com/corysmith1522/home-cookin/blob/dev/home_cookin_component_.png) 
+![Component Tree](https://github.com/corysmith1522/home-cookin/blob/dev/mockups/home_cookin_component_.png) 
 
 #### Component Hierarchy
 
@@ -171,7 +171,7 @@ src
 
 #### ERD Model
 
-![ERD Diagram](https://github.com/corysmith1522/home-cookin/blob/dev/home_cookin_ERD.png)
+![ERD Diagram](https://github.com/corysmith1522/home-cookin/blob/dev/mockups/home_cookin_ERD.png)
 
 <br>
 
