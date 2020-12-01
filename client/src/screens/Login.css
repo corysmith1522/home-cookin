@@ -1,0 +1,63 @@
+.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-username {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+
+.login-label-username {
+  font-weight: bold;
+}
+
+.login-username-input {
+  margin-left: 15%;
+}
+
+.login-password {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.login-label-password {
+  font-weight: bold;
+}
+
+.login-password-input {
+  margin-left: 17%;
+}
+
+.login-submit {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  font-size: 100%;
+  text-decoration-line: underline;
+  color: #c17924;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+.login-submit:hover {
+  color: #72293c;
+}
+
+.new-to-lara {
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.register-here-link {
+  margin-bottom: 2%;
+}
