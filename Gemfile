@@ -18,7 +18,7 @@ gem 'bcrypt', '~> 3.1.7'
 # Use Json Web Token (JWT) for token based authentication
 gem 'jwt'
 # Use for validating, normalizing and formatting phone number
-gem "phonelib"
+# gem 'phonelib'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false

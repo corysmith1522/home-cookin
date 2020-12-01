@@ -28,3 +28,5 @@ puts "#{User.count} users created"
 puts "#{Meal.count} meals created"
 
 @order1 = Order.create!(name_on_order: 'Tester', user: @user1)
+
+puts "#{Order.count} orders created"
