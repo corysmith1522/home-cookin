@@ -4,7 +4,8 @@ import { Switch, Route, useHistory } from 'react-router-dom';
 import './App.css';
 import Layout from './layouts/Layout';
 import Login from './screens/Login';
-import {loginUser} from './services/auth'
+import Register from './screens/Register'
+import {loginUser, registerUser} from './services/auth'
 
 function App() {
   const [currentUser, setCurrentUser] = useState(null);
@@ -12,6 +13,12 @@ function App() {
 
   const handleLogin = async (loginData) => {
     const userData = await loginUser(loginData);
+    setCurrentUser(userData);
+    history.push('/');
+  }
+
+  const handleRegister = async (registerData) => {
+    const userData = await registerUser(registerData);
     setCurrentUser(userData);
     history.push('/');
   }
@@ -23,7 +30,8 @@ function App() {
           <Login handleLogin={handleLogin}/> 
         </Route>
         <Route path='/register'>
-         {/* register */} 
+          {/* register */}
+          <Register handleRegister={handleRegister} /> 
         </Route>
         <Route path='/orders'>
          {/* container */} 
