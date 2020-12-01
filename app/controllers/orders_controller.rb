@@ -1,11 +1,11 @@
 class OrdersController < ApplicationController
   before_action :set_order, only: [:show, :add_meal]
-  before_action :authorize_request, only: [:create, :update, :destroy]
+  before_action :authorize_request, only: [:index, :create, :update, :destroy]
   before_action :set_user_order, only: [:update, :destroy]
 
   # GET /orders
   def index
-    @orders = Order.all
+    @orders = @current_user.orders
 
     render json: @orders
   end
