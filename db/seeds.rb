@@ -26,3 +26,5 @@ puts "#{User.count} users created"
 @meal10 = Meal.create!(name: 'Chicken Shawarma', image: 'https://img.hellofresh.com/c_fit,f_auto,fl_lossy,h_1100,q_auto,w_2600/hellofresh_s3/image/street-cart-style-chicken-shawarma-bowls-8df1f17f.jpg', description: 'Marinated chicken blended with spices and yogurt, piled over pistachio rice and sauteed peppers then drizzled with a cilantro sauce', price: 11)
 
 puts "#{Meal.count} meals created"
+
+@order1 = Order.create!(name_on_order: 'Tester', user: @user1)
