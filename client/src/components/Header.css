@@ -1,0 +1,15 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+}
+
+.initial-login-link {
+  display: flex;
+  align-items: center;
+}
