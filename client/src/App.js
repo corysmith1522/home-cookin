@@ -7,7 +7,7 @@ import Home from './screens/Home';
 import Login from './screens/Login';
 import Menu from './screens/Menu';
 import Register from './screens/Register'
-import {loginUser, registerUser} from './services/auth'
+import {loginUser, registerUser, verifyUser} from './services/auth'
 import { getAllMeals } from './services/meals';
 
 function App() {
@@ -20,6 +20,14 @@ function App() {
       const mealData = await getAllMeals();
       setMeals(mealData);
     }
+    const handleVerify = async () => {
+      const userData = await verifyUser();
+      setCurrentUser(userData);
+      if (!userData) {
+        history.push('/')
+      }
+    }
+    handleVerify();
     fetchMeals();
   }, [])
 
@@ -35,7 +43,7 @@ function App() {
     history.push('/');
   }
   return (
-    <Layout>
+    <Layout currentUser={currentUser}>
       <Switch>
         <Route path='/login'>
           {/* login */}
