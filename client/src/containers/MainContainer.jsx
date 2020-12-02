@@ -34,11 +34,9 @@ export default function MainContainer(props) {
     setOrders(prevState => prevState.filter(order => order.id !== id))
   }
 
-
-
   return (
     <div>
-      <Orders orders={orders} />
+      <Orders orders={orders} handleDelete={handleDelete} />
       <Switch>
         <Route>
           {/*Edit Order*/}

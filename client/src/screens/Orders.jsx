@@ -12,7 +12,9 @@ export default function Orders(props) {
             <Fragment key={order.id}>
               <div className='user-order'>
                 <p><Link to='/editorder' className='order-name'>{order.name_on_order}</Link></p>
-                <button className='clear-order-button'>Clear Order</button>
+                <button
+                  className='clear-order-button'
+                  onClick={() => props.handleDelete(order.id)}>Clear Order</button>
               </div>
             </Fragment>
           ))}
