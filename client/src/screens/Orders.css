@@ -7,8 +7,10 @@
 }
 
 .order-name {
+  display: flex;
   font-weight: bold;
-  margin-right: 2%;
+  text-decoration: none;
+  color: #c17924; 
 }
 
 .clear-order-button {
@@ -16,10 +18,11 @@
   border: 3px solid #72293c;
   color: #c17924;
   font-weight: bold;
+  margin-left: 4%;
 }
 
 .clear-order-button:hover {
   background-color: #72293c;
-  
+
 }
 

@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import './Orders.css'
 
 export default function Orders(props) {
@@ -10,7 +11,7 @@ export default function Orders(props) {
           props.orders.map(order => (
             <Fragment key={order.id}>
               <div className='user-order'>
-                <p className='order-name'>{order.name_on_order}</p>
+                <p><Link to='/editorder' className='order-name'>{order.name_on_order}</Link></p>
                 <button className='clear-order-button'>Clear Order</button>
               </div>
             </Fragment>
