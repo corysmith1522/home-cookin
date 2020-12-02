@@ -21,6 +21,10 @@
   font-weight: bold;
 }
 
+.register-username-input {
+  border: 2px solid #72293c
+}
+
 .register-email {
   display: flex;
   width: 25vw;
@@ -31,6 +35,10 @@
 
 .register-label-email {
   font-weight: bold;
+}
+
+.register-email-input {
+  border: 2px solid #72293c
 }
 
 .register-phone-number {
@@ -45,6 +53,10 @@
   font-weight: bold;
 }
 
+.register-phone-number-input {
+  border: 2px solid #72293c
+}
+
 .register-password {
   display: flex;
   width: 25vw;
@@ -55,7 +67,10 @@
 
 .register-label-password {
   font-weight: bold;
+}
 
+.register-password-input {
+  border: 2px solid #72293c
 }
 
 .register-submit {
