@@ -1,0 +1,73 @@
+.Register {
+  display: flex;
+  justify-content: center;
+}
+
+.main-register-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-username {
+  display: flex;
+  width: 25vw;
+  justify-content: space-between;
+  padding: 0.75vh 0;
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+
+.register-label-username {
+  font-weight: bold;
+}
+
+.register-email {
+  display: flex;
+  width: 25vw;
+  justify-content: space-between;
+  padding: 0.75vh 0;
+  margin-bottom: 1%;
+}
+
+.register-label-email {
+  font-weight: bold;
+}
+
+.register-phone-number {
+  display: flex;
+  width: 25vw;
+  justify-content: space-between;
+  padding: 0.75vh 0;
+  margin-bottom: 1%;
+}
+
+.register-label-phone-number {
+  font-weight: bold;
+}
+
+.register-password {
+  display: flex;
+  width: 25vw;
+  justify-content: space-between;
+  padding: 0.75vh 0;
+  margin-bottom: 3%;
+}
+
+.register-label-password {
+  font-weight: bold;
+
+}
+
+.register-submit {
+  display: flex;
+  width: fit-content;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  font-size: 100%;
+  text-decoration-line: underline;
+  color: #c17924;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
