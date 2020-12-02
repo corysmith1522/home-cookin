@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Switch, Route, useHistory } from 'react-router-dom';
 
 import './App.css';
+import MainContainer from './containers/MainContainer';
 import Layout from './layouts/Layout';
 import Home from './screens/Home';
 import Login from './screens/Login';
@@ -54,7 +55,8 @@ function App() {
           <Register handleRegister={handleRegister} /> 
         </Route>
         <Route path='/orders'>
-         {/* container */} 
+          {/* container */}
+         <MainContainer currentUser={currentUser} /> 
         </Route>
         <Route path='/menu'>
           {/* menu */} 

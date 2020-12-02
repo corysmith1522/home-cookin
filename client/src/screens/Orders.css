@@ -1,0 +1,25 @@
+.user-order {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.order-name {
+  font-weight: bold;
+  margin-right: 2%;
+}
+
+.clear-order-button {
+  background-color: #ffffff;
+  border: 3px solid #72293c;
+  color: #c17924;
+  font-weight: bold;
+}
+
+.clear-order-button:hover {
+  background-color: #72293c;
+  
+}
+

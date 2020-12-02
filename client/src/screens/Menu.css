@@ -4,10 +4,6 @@
   flex-direction: column;
 }
 
-.meal-container {
-  /* border: 1px solid red; */
-}
-
 .item-container {
   /* border: 1px solid orange; */
   display: flex;
