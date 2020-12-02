@@ -1,0 +1,21 @@
+.home-screen {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  margin: 0 auto;
+  margin-top: 6vh;
+}
+
+.blurb {
+  width: 32vw;
+  text-align: justify;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.home-image {
+  width: 80%;
+  height: auto;
+  margin: 4% 10% 10% 10%;
+  border: 5px solid #72293c;
+}

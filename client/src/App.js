@@ -3,6 +3,7 @@ import { Switch, Route, useHistory } from 'react-router-dom';
 
 import './App.css';
 import Layout from './layouts/Layout';
+import Home from './screens/Home';
 import Login from './screens/Login';
 import Register from './screens/Register'
 import {loginUser, registerUser} from './services/auth'
@@ -37,7 +38,8 @@ function App() {
          {/* container */} 
         </Route>
         <Route path='/'>
-         {/* home */} 
+          {/* home */} 
+          <Home />
         </Route>
       </Switch>
 
