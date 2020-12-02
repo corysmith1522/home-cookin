@@ -7,7 +7,7 @@ export default function Header() {
     <div className='Header'>
       <Link to='/menu' className='menu-link'>Menu</Link>
       <div className='title-container'>
-        <h1 className='app-title'>Lara's Home Cookin</h1>
+        <Link to='/' className='app-title'><h1 >Lara's Home Cookin</h1></Link>
       </div>
       <Link to='/login' className='initial-login-link'>Login/Register</Link>
     </div>
