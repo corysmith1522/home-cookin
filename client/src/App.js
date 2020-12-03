@@ -46,11 +46,11 @@ function App() {
   return (
     <Layout currentUser={currentUser}>
       <Switch>
-        <Route path='/login'>
+        <Route exact path='/login'>
           {/* login */}
           <Login handleLogin={handleLogin}/> 
         </Route>
-        <Route path='/register'>
+        <Route exact path='/register'>
           {/* register */}
           <Register handleRegister={handleRegister} /> 
         </Route>
@@ -58,11 +58,11 @@ function App() {
           {/* container */}
          <MainContainer currentUser={currentUser} meals={meals} /> 
         </Route>
-        <Route path='/menu'>
+        <Route exact path='/menu'>
           {/* menu */} 
           <Menu meals={meals}/>
         </Route>
-        <Route path='/'>
+        <Route exact path='/'>
           {/* home */} 
           <Home />
         </Route>

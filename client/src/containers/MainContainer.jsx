@@ -37,14 +37,16 @@ export default function MainContainer(props) {
 
   return (
     <div>
-      <Orders orders={orders} handleDelete={handleDelete} />
       <Switch>
-        <Route>
+        {/* <Route>
           {/*Edit Order*/}
-        </Route>
-        <Route exact path='/orders/new'>
+        {/* </Route> */} 
+        <Route path='/orders/new'>
           {/*Create Order*/}
           <CreateOrder handleCreate={handleCreate} meals={props.meals} />
+        </Route>
+        <Route path='/orders'>
+          <Orders orders={orders} handleDelete={handleDelete} />
         </Route>
       </Switch>
     </div>

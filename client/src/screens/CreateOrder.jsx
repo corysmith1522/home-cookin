@@ -13,7 +13,8 @@ export default function CreateOrder(props) {
     }))
   }
   return (
-    <form>
+    <div>
+      <form>
       <h2>Your New Order</h2>
       <label htmlFor='name_on_order'>Name</label>
       <input
@@ -23,6 +24,7 @@ export default function CreateOrder(props) {
         onChange={handleChange}
       />
       <button>Submit</button>
-    </form>
+      </form>
+    </div>
   )
 }
