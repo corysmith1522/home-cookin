@@ -35,7 +35,7 @@ export default function SelectFromMenu() {
   return (
     <div className='order-menu-checkboxes'>
       {checkboxes.map((checkbox, i) => (
-        <div>
+        <div className='selections'>
           <input
           type="checkbox"
           checked={checkbox.checked}
@@ -43,7 +43,7 @@ export default function SelectFromMenu() {
             setCheckbox(i, e.target.checked)
           }}
         />
-          {checkbox.name}
+          <span className='order-menu-item-names'>{checkbox.name}</span>
         </div>
       ))}
     </div>
