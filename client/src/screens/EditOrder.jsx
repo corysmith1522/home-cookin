@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import SelectFromMenu from '../components/SelectFromMenu';
+import './EditOrder.css'
 
 export default function EditOrder(props) {
   const [formData, setFormData] = useState({
@@ -29,20 +30,26 @@ export default function EditOrder(props) {
   }
 
   return (
-    <form onSubmit={(e) => {
-      e.preventDefault();
-      props.handleUpdate(id, formData);
-    }}>
-      <h2>Edit Order</h2>
-      <label htmlFor='name_on_order'>Name</label>
-      <input
-        type='text'
-        name='name_on_order'
-        value={formData.name_on_order}
-        onChange={handleChange}
-      />
-      <SelectFromMenu />
-      <button>Submit</button>
-    </form>
+    <div className='edit-container'>
+      <form onSubmit={(e) => {
+        e.preventDefault();
+        props.handleUpdate(id, formData);
+      }}>
+        <h2>Edit Order</h2>
+        <div className='edit-order-name'>
+          <label htmlFor='name_on_order' className='edit-name-order'>Name</label>
+          <input
+            className='edit-order-name-input'
+            type='text'
+            name='name_on_order'
+            value={formData.name_on_order}
+            onChange={handleChange}
+          />
+        </div>
+        <h3>Selection(s)</h3>
+        <SelectFromMenu />
+        <button className='edit-order-submit'>Submit</button>
+      </form>
+    </div>
   )
 }
