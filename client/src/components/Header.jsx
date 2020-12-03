@@ -18,7 +18,7 @@ export default function Header(props) {
           currentUser ? 
             <>
               <Link to='/orders' className='my-order-link'>Orders</Link>
-              <Link to='/createorder' className='new-order-link'>New Order</Link>
+              <Link to='/orders/new' className='new-order-link'>New Order</Link>
             </>
             :
             <Link to='/login' className='initial-login-link'>Login/Register</Link>

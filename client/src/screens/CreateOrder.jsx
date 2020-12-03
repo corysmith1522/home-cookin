@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function CreateOrder() {
+export default function CreateOrder(props) {
   const [formData, setFormData] = useState({
     name_on_order: ''
   })

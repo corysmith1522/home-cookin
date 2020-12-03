@@ -56,7 +56,7 @@ function App() {
         </Route>
         <Route path='/orders'>
           {/* container */}
-         <MainContainer currentUser={currentUser} /> 
+         <MainContainer currentUser={currentUser} meals={meals} /> 
         </Route>
         <Route path='/menu'>
           {/* menu */} 
