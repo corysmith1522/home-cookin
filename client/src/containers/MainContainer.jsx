@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react';
 import { Route, Switch, useHistory } from 'react-router-dom';
 import CreateOrder from '../screens/CreateOrder';
+import EditOrder from '../screens/EditOrder';
 import Orders from '../screens/Orders';
 import { destroyOrder, getAllOrders, postOrder, putOrder } from '../services/orders';
 
@@ -38,9 +39,10 @@ export default function MainContainer(props) {
   return (
     <div>
       <Switch>
-        {/* <Route>
+        <Route path='/orders/:id/edit'>
           {/*Edit Order*/}
-        {/* </Route> */} 
+          <EditOrder orders={orders} handleUpdate={handleUpdate}/>
+        </Route> 
         <Route path='/orders/new'>
           {/*Create Order*/}
           <CreateOrder handleCreate={handleCreate} meals={props.meals} />

@@ -11,7 +11,7 @@ export default function Orders(props) {
           props.orders.map(order => (
             <Fragment key={order.id}>
               <div className='user-order'>
-                <p><Link to='/editorder' className='order-name'>{order.name_on_order}</Link></p>
+                <p><Link to={`/orders/${order.id}/edit`} className='order-name'>{order.name_on_order}</Link></p>
                 <button
                   className='clear-order-button'
                   onClick={() => props.handleDelete(order.id)}>Clear Order</button>

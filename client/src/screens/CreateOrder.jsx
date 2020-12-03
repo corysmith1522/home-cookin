@@ -15,7 +15,10 @@ export default function CreateOrder(props) {
   }
   return (
     <div>
-      <form>
+      <form onSubmit={(e) => {
+        e.preventDefault();
+        props.handleCreate(formData);
+      }}>
       <h2>Your New Order</h2>
       <label htmlFor='name_on_order'>Name</label>
       <input
