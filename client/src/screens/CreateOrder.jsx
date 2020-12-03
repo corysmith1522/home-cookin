@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import SelectFromMenu from '../components/SelectFromMenu';
 
 export default function CreateOrder(props) {
   const [formData, setFormData] = useState({
@@ -22,7 +23,8 @@ export default function CreateOrder(props) {
         name='name_on_order'
         value={formData.name_on_order}
         onChange={handleChange}
-      />
+        />
+      <SelectFromMenu />
       <button>Submit</button>
       </form>
     </div>
