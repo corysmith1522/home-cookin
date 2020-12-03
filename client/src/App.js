@@ -47,23 +47,18 @@ function App() {
     <Layout currentUser={currentUser}>
       <Switch>
         <Route exact path='/login'>
-          {/* login */}
           <Login handleLogin={handleLogin}/> 
         </Route>
         <Route exact path='/register'>
-          {/* register */}
           <Register handleRegister={handleRegister} /> 
         </Route>
         <Route path='/orders'>
-          {/* container */}
          <MainContainer currentUser={currentUser} meals={meals} /> 
         </Route>
         <Route exact path='/menu'>
-          {/* menu */} 
           <Menu meals={meals}/>
         </Route>
-        <Route exact path='/'>
-          {/* home */} 
+        <Route exact path='/'> 
           <Home />
         </Route>
       </Switch>
