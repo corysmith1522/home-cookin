@@ -37,7 +37,7 @@ export default function EditOrder(props) {
       }}>
         <h2>Edit Order</h2>
         <div className='edit-order-name'>
-          <label htmlFor='name_on_order' className='edit-name-order'>Name</label>
+          <label htmlFor='name_on_order' className='edit-name-order'>Name for Order</label>
           <input
             className='edit-order-name-input'
             type='text'

@@ -35,10 +35,9 @@ export default function SelectFromMenu() {
   return (
     <div className='order-menu-checkboxes'>
       {checkboxes.map((checkbox, i) => (
-        <Fragment>
+        <Fragment key={i}>
         <div className='selections'>
           <input
-            key={i}
             type="checkbox"
             checked={checkbox.checked}
             value={checkboxes || []}
