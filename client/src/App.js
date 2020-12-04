@@ -30,7 +30,7 @@ function App() {
     }
     handleVerify();
     fetchMeals();
-  }, [])
+  }, [history])
 
   const handleLogin = async (loginData) => {
     const userData = await loginUser(loginData);

@@ -19,7 +19,7 @@ export default function EditOrder(props) {
     if (props.orders.length) {
       prefillForm();
     }
-  }, [props.orders])
+  }, [props.orders, id])
 
   const handleChange = (e) => {
     const { name, value } = e.target;

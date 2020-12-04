@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import './SelectFromMenu.css'
 
 
@@ -35,16 +35,19 @@ export default function SelectFromMenu() {
   return (
     <div className='order-menu-checkboxes'>
       {checkboxes.map((checkbox, i) => (
+        <Fragment key={checkbox[i]}>
         <div className='selections'>
           <input
           type="checkbox"
           checked={checkbox.checked}
+          value={checkboxes || []}
           onChange={e => {
             setCheckbox(i, e.target.checked)
           }}
         />
           <span className='order-menu-item-names'>{checkbox.name}</span>
-        </div>
+          </div>
+          </Fragment>
       ))}
     </div>
   )
