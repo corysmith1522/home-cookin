@@ -42,7 +42,7 @@ export default function EditOrder(props) {
             className='edit-order-name-input'
             type='text'
             name='name_on_order'
-            value={formData.name_on_order}
+            value={formData.name_on_order || ''}
             onChange={handleChange}
           />
         </div>

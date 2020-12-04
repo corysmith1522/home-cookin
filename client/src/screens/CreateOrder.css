@@ -17,7 +17,10 @@
 }
 
 .create-order-name-input {
-  border: 2px solid #72293c
+  border: 2px solid #72293c;
+  padding: 2px 1px;
+  line-height: 80%;
+  max-width: 90px;
 }
 
 .create-order-submit {
@@ -37,4 +40,18 @@
 
 .create-order-submit:hover{
   color: #72293c;
+}
+
+@media screen and (max-width: 1100px) {
+  .create-name-order {
+    display: flex;
+    font-size: 10px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .create-order-name-input {
+    max-width: 50px;
+  }
 }
