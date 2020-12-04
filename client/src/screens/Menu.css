@@ -56,6 +56,10 @@
   .meal-description {
     font-size: 8px;
   }
+
+  .meal-image {
+    max-height: 75px;
+  }
 }
 
 
