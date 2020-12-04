@@ -2,7 +2,7 @@
 
 <br>
 
-[Lara's Home Cookin] (https://laras-home-cookin.netlify.app/ "Lara's Home Cookin")
+[Lara's Home Cookin](https://laras-home-cookin.netlify.app/ "Lara's Home Cookin")
 
 ## Overview
 
