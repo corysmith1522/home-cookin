@@ -1,6 +1,8 @@
 import React, { Fragment, useState } from 'react';
 import './SelectFromMenu.css'
 
+// citation for help with implementing checkbox: https://react.school/ui/input
+
 
 export default function SelectFromMenu() {
   const checkboxesList = [
